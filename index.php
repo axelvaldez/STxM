@@ -12,6 +12,23 @@
         <h1>ST<span class="accent">×</span>M</h1>
         <p>Start The Xerox Machine</p>
     </header>
+    <main>
+        <?php
+        define('IMAGEPATH', 'img/');
+
+        if (is_dir(IMAGEPATH)){
+            $handle = opendir(IMAGEPATH);
+        }
+        else{
+            echo 'No image directory';
+        }
+
+        foreach(glob(IMAGEPATH.'*') as $filename){
+            echo "<img src=\"img/" . basename($filename) . "\">\n";
+        }
+
+        ?>
+    </main>
     <footer>
         <p>Made and curated by <a href="https://axel.mx">Axel</a>. <a href="#">Make your own</a>.</p>
     </footer>
