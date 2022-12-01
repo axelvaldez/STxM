@@ -30,7 +30,7 @@
         ?>
     </main>
     <footer>
-        <p>Made and curated by <a href="https://axel.mx">Axel</a>. <a href="#">Make your own</a>.</p>
+        <p>Made and curated by <a href="https://axelvaldez.mx">Axel</a>. <a href="https://github.com/axelvaldez/stxm">Make your own</a>.</p>
     </footer>
     <script src="script.js"></script>
 </body>
