@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+	font-family: "Bebas Neue";
+	margin: 0;
+    padding: 0;
+	text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+    background-image:
+        linear-gradient(transparent 90%, #fb0 90%, #fb0 100%),
+        linear-gradient(transparent 90%, #444 90%, #444 100%);
+    background-size: 0 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: .2s ease background-size;
+}
+a:hover{
+    background-size: 100% 100%, 100% 100%;
+    color: #fb0;
+}
+
+header{
+    letter-spacing: 1rem;
+}
+
+header,footer{
+    padding: 2rem;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer{
+	background: #000;
+    color: #fff;
+    letter-spacing: .25rem;
+    order: 3;
+    margin-top: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: auto 0;
+    padding: 2rem;
+}
+
+img{
+	display: block;
+	height: 200px;
+	max-width: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 650px){
+    main{
+        display: block;
+    }
+    main img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+}
+
+img.active{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 10vh 10vw;
+}
+
+
+h1{
+	font-size: 8rem;
+	margin: 0;
+    line-height: 1;
+}
+
+header p{
+	font-size: 2rem;
+	margin: 0;
+    color: #aaa;
+}
+
+.accent{
+    color: #fb0;
+}

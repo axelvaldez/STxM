@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "php": "^1.0.2"
+  },
+  "name": "stx",
+  "description": "Start the Xerox Machine - Quick image showcase script.",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "circular": "^1.0.5",
+    "cross-spawn": "^7.0.3",
+    "execa": "^5.1.1",
+    "get-stream": "^6.0.1",
+    "human-signals": "^2.1.0",
+    "is-stream": "^2.0.1",
+    "isexe": "^2.0.0",
+    "merge-stream": "^2.0.0",
+    "mimic-fn": "^2.1.0",
+    "npm-run-path": "^4.0.1",
+    "onetime": "^5.1.2",
+    "path-key": "^3.1.1",
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "signal-exit": "^3.0.7",
+    "strip-final-newline": "^2.0.0",
+    "which": "^2.0.2"
+  },
+  "scripts": {
+    "build": "chmod +x build.sh && ./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelvaldez/STxM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelvaldez/STxM/issues"
+  },
+  "homepage": "https://github.com/axelvaldez/STxM#readme"
+}
