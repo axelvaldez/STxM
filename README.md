@@ -9,7 +9,7 @@ See, I used to have a moodboard in AMB1, an app based in Dropbox, but that's not
 
 ### How to run it
 1. Clone the repo
-2. ```npm install``
+2. ```npm install```
 3. ```npm run build```
 
 The website will be generated in the ```_site``` directory. You can open index.html in your browser.
