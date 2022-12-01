@@ -18,6 +18,25 @@ The website will be generated in the ```_site``` directory. You can open index.h
 1. Edit the text in `index.php` (title, subtitle, etc).
 2. Dump a bunch of image files inside the `img` folder (jpeg, jpg, png, gif and svg are supported)
 
+### How to host it in Netlify
+
+**The quick and easy option**
+
+1. Clone, install and customize locally
+2. Login to Netlify
+3. Go to https://app.netlify.com/drop and drag & drop your ```_site``` folder.
+
+**The permanent option (with continuous delivery)**
+
+1. Fork the repo
+2. Clone, install and customize locally
+3. Push to your fork
+4. Login to Netlify / Add new site / Import from GitHub / Select your fork
+5. As the build command, enter ```npm run build```
+6. As the output directory, enter ```_site```
+
+Now every change you push to your repo will be deployed to your live site.
+
 ### What to use it for
 - Moodboards
 - Quick sharing photos
